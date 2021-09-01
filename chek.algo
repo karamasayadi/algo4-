@@ -1,0 +1,19 @@
+algorithme ex
+var 
+tab1:array of integer ;
+u,z,x,i:integer;
+begin 
+for (i from 1 to tab1.length-1 step1 )do 
+if tab1[i]>tab1[i-1]
+z=tab[i];
+for (x from i-1 to 0 step -1)do
+repete 
+u=tab1[x-1];
+tab1[x-1]=tab[x];
+tab[x]=u;
+x--;
+until (tab1[x]<tab1[x-1]);
+end for 
+tab[i]=z[i];
+end for 
+end .
